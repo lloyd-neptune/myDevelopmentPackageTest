@@ -1,0 +1,193 @@
+{
+	"id": "C32AAEE6-1079-EC11-94F6-A085FCBC9F84",
+	"createdAt": "2022-01-19T10:16:44.840Z",
+	"createdBy": "emmanuella",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/lloyd-neptune/myDevelopmentPackageTest",
+		"testServers": [],
+		"packageJSON": [
+			"==OBJECT STRING==",
+			"{",
+			"  \"name\": \"CovidMgt_new\",",
+			"  \"version\": \"1.0.0\",",
+			"  \"description\": \"CovidMgt_new\",",
+			"  \"author\": \"Neptune Software\",",
+			"  \"license\": \"LicenseRef-LICENSE\",",
+			"  \"private\": true,",
+			"  \"scripts\": {",
+			"    \"deploy\": \"ts-node src/deploy.ts\",",
+			"    \"test\": \"jest --passWithNoTests\"",
+			"  },",
+			"  \"engines\": {",
+			"    \"node\": \"14.16.0\"",
+			"  },",
+			"  \"devDependencies\": {",
+			"    \"@types/jest\": \"^26.0.23\",",
+			"    \"typescript\": \"^4.2.3\",",
+			"    \"ts-node\": \"^10.0.0\",",
+			"    \"axios\": \"^0.21.1\",",
+			"    \"jest\": \"^27.0.4\",",
+			"    \"ts-jest\": \"^27.0.3\"",
+			"  }",
+			"}",
+			""
+		]
+	},
+	"name": "CovidMgt_new",
+	"description": null,
+	"ver": "22.7.18.102",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "9A926CDC-2A79-EC11-94F6-A085FCBC9F84",
+			"application": "covid_manager_inbox",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "A0D2E3E3-C579-EC11-94F6-A085FCBC9F84",
+			"application": "inbox_covidapp",
+			"title": "Workflow Inbox",
+			"description": "Workflow Inbox - Fiori 3"
+		},
+		{
+			"id": "6B8904A6-0A7A-EC11-94F6-A085FCBC9F84",
+			"application": "new_manager_app",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "A59B7AE3-1A88-EC11-94F6-A085FCBC9F84",
+			"application": "adminuploads",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "0B0AFE83-B27A-EC11-94F6-A085FCBC9F84",
+			"name": "API covid_config",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "9A0E5C7B-047D-EC11-94F6-A085FCBC9F84",
+			"name": "managelist",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "81C40AB3-6F75-EC11-94F6-A085FCBC9F84",
+			"name": "covidapp_employees",
+			"description": null
+		},
+		{
+			"id": "B4F9F300-7075-EC11-94F6-A085FCBC9F84",
+			"name": "covid_certificate",
+			"description": null
+		},
+		{
+			"id": "3CF690AA-A17A-EC11-94F6-A085FCBC9F84",
+			"name": "covid_health_survey",
+			"description": null
+		},
+		{
+			"id": "D8C0C845-AE7A-EC11-94F6-A085FCBC9F84",
+			"name": "covid_config",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "8C934EE1-2B79-EC11-94F6-A085FCBC9F84",
+			"name": "Cert_approval",
+			"description": null
+		},
+		{
+			"id": "180F9BF6-FE7C-EC11-94F6-A085FCBC9F84",
+			"name": "certificateList",
+			"description": null
+		},
+		{
+			"id": "76BA0834-147D-EC11-94F6-A085FCBC9F84",
+			"name": "cert_approval_script",
+			"description": null
+		},
+		{
+			"id": "D50CBFC4-207E-EC11-94F6-A085FCBC9F84",
+			"name": "InitManager",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "A04E57D7-2B79-EC11-94F6-A085FCBC9F84",
+			"name": "CovidMgt_new",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "28C2EE75-B07A-EC11-94F6-A085FCBC9F84",
+			"name": "CovidRule",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "1F251F42-B17A-EC11-94F6-A085FCBC9F84",
+			"name": "CovidRuleCreate",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "DE4C6895-3A79-EC11-94F6-A085FCBC9F84",
+			"description": null,
+			"name": "covidmgt_workflow"
+		},
+		{
+			"id": "DB790AA0-0B7A-EC11-94F6-A085FCBC9F84",
+			"description": null,
+			"name": "manager_test_app"
+		},
+		{
+			"id": "86B49534-B77A-EC11-94F6-A085FCBC9F84",
+			"description": null,
+			"name": "CovidRule Config"
+		}
+	],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [
+		{
+			"id": "8F9DC72A-2A79-EC11-94F6-A085FCBC9F84",
+			"title": "Covid_Certificate_Approval",
+			"subTitle": null
+		}
+	],
+	"connector": [
+		{
+			"id": "0BD78143-B07A-EC11-94F6-A085FCBC9F84",
+			"name": "covidAppConfig",
+			"description": null
+		}
+	]
+}

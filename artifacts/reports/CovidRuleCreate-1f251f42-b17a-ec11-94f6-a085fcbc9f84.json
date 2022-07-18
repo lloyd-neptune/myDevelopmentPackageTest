@@ -1,0 +1,197 @@
+{
+	"id": "1f251f42-b17a-ec11-94f6-a085fcbc9f84",
+	"createdAt": "2022-01-21T11:57:14.283Z",
+	"createdBy": "emmanuella",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"tab0Text": "General",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "rule",
+				"label": "rule",
+				"type": "text"
+			},
+			{
+				"name": "vaccineDuration",
+				"label": "vaccineDuration",
+				"type": "text"
+			},
+			{
+				"name": "recoverDuration",
+				"label": "recoverDuration",
+				"type": "text"
+			},
+			{
+				"name": "testDuration",
+				"label": "testDuration",
+				"type": "text"
+			},
+			{
+				"name": "policyPreview",
+				"label": "policyPreview",
+				"type": "text"
+			},
+			{
+				"name": "securityInfo",
+				"label": "securityInfo",
+				"type": "json"
+			},
+			{
+				"name": "statusGoodImg",
+				"label": "statusGoodImg",
+				"type": "text"
+			},
+			{
+				"name": "statusBadImg",
+				"label": "statusBadImg",
+				"type": "text"
+			},
+			{
+				"name": "compliantMsgGood",
+				"label": "compliantMsgGood",
+				"type": "text"
+			},
+			{
+				"name": "compliantMsgBad",
+				"label": "compliantMsgBad",
+				"type": "text"
+			},
+			{
+				"name": "policyPreviewImg",
+				"label": "policyPreviewImg",
+				"type": "text"
+			},
+			{
+				"name": "policyLink",
+				"label": "policyLink",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [
+			{
+				"editable": true,
+				"visible": true,
+				"name": "rule",
+				"text": "Rule",
+				"fieldPos": 1,
+				"type": "MultiSelect",
+				"default": "2G+",
+				"enableNewForm": false
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "vaccineDuration",
+				"text": "Vaccine Duration (in months)",
+				"fieldPos": 2,
+				"inputType": "Number"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "recoverDuration",
+				"text": "Recover Duration (in months)",
+				"fieldPos": 3,
+				"inputType": "Number"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "testDuration",
+				"text": "Test Duration (in hours)",
+				"fieldPos": 4,
+				"inputType": "Number"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "policyLink",
+				"text": "Company Covid Policy Link",
+				"fieldPos": 5
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "policyPreview",
+				"text": "Company Covid Policy Preview ",
+				"fieldPos": 6,
+				"type": "Editor"
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "4fc19a56-4249-4280-a150-6b9328684130",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "CovidRuleCreate",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "0bd78143-b07a-ec11-94f6-a085fcbc9f84",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.1.21.1238",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "c32aaee6-1079-ec11-94f6-a085fcbc9f84",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

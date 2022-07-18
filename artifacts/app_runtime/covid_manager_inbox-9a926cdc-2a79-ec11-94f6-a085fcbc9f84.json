@@ -1,0 +1,407 @@
+{
+	"id": "9a926cdc-2a79-ec11-94f6-a085fcbc9f84",
+	"createdAt": "2022-01-19T13:23:40.290Z",
+	"createdBy": "emmanuella",
+	"objects": [
+		{
+			"fieldNo": "2",
+			"fieldName": "oApp",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "4",
+					"fieldName": "oPage",
+					"fieldParent": "2",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Full Screen",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showSubHeader",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showHeader",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "81adec21-6682-4e94-d641-b54e8c22a671",
+							"fieldName": "oNUIContainer",
+							"fieldParent": "4",
+							"fieldType": "nep.bootstrap.Container",
+							"script": "",
+							"bindingValue": "API covid_certificate>covid_certificate",
+							"bindingType": "u",
+							"bindingSource": "API",
+							"bindingParentID": "8F42FB31-7075-EC11-94F6-A085FCBC9F84",
+							"bindingPathID": "24518322-05b2-40e9-dd70-6d266483939c",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "margin",
+									"grouping": "Properties",
+									"value": "MarginTop3",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "padding",
+									"grouping": "Properties",
+									"value": "PaddingTop3",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "backgroundColor",
+									"grouping": "Properties",
+									"value": "White",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "c007039c-094e-43dd-e9ea-39cd8fca1d9f",
+									"fieldName": "oHBox1",
+									"fieldParent": "81adec21-6682-4e94-d641-b54e8c22a671",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "b7be452a-c8c1-404b-b5dd-f8778c8e9a4e",
+											"fieldName": "labelType",
+											"fieldParent": "c007039c-094e-43dd-e9ea-39cd8fca1d9f",
+											"fieldType": "nep.bootstrap.Text",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Certificate Type:",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginEnd3",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "1782532e-1e23-4f9d-cde0-4b8b4ca9a20c",
+											"fieldName": "textType",
+											"fieldParent": "c007039c-094e-43dd-e9ea-39cd8fca1d9f",
+											"fieldType": "nep.bootstrap.Text",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{/type}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Strong",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "19b69c6a-c7b2-45e5-bc63-d402062bea3c",
+									"fieldName": "oHBox2",
+									"fieldParent": "81adec21-6682-4e94-d641-b54e8c22a671",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "cea82a91-224e-40ff-8bc0-6bd3af12b9b0",
+											"fieldName": "labelDate",
+											"fieldParent": "19b69c6a-c7b2-45e5-bc63-d402062bea3c",
+											"fieldType": "nep.bootstrap.Text",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Certificate Date and Time: ",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginEnd3",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "183fd7cf-664e-48d2-be90-541149a00d19",
+											"fieldName": "textDate",
+											"fieldParent": "19b69c6a-c7b2-45e5-bc63-d402062bea3c",
+											"fieldType": "nep.bootstrap.Text",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{/dateTime}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Strong",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "bd213410-5678-42e1-b60c-7bb7e0b96f95",
+									"fieldName": "oHBox",
+									"fieldParent": "81adec21-6682-4e94-d641-b54e8c22a671",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "06b94c30-41ca-4357-a223-06a324df8d24",
+											"fieldName": "oImage",
+											"fieldParent": "bd213410-5678-42e1-b60c-7bb7e0b96f95",
+											"fieldType": "sap.m.Image",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "src",
+													"grouping": "Properties",
+													"value": "{/document}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "height",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "35608a54-97b6-4c2b-951e-c910cd5bf960",
+					"fieldName": "oJavascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": [
+						"==OBJECT STRING==",
+						"if (sap.n) {",
+						"    sap.n.Shell.attachInit(function (data) {",
+						"        console.log(\"Workflow Data in app:\")",
+						"        console.log(data)",
+						"",
+						"        var options = {",
+						"            parameters: {",
+						"                \"where\": JSON.stringify({ \"id\": data.objectKey }), // Optional ",
+						"            }",
+						"        };",
+						"",
+						"        apioRestAPI(options);",
+						"    }",
+						"    )",
+						"}"
+					],
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "62e58741-7a2f-401a-9159-07e45e301ec1",
+					"fieldName": "oModelArray",
+					"fieldParent": 99999,
+					"fieldType": "neptune.model.array",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "661e5300-20f3-440f-ed7a-d76679e64254",
+					"fieldName": "oRestAPI",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"restSource": "8F42FB31-7075-EC11-94F6-A085FCBC9F84",
+					"restOperation": "5B70BB6A-C6CA-4E56-E2EB-7E09FC0561C4",
+					"request": [],
+					"response": [
+						{
+							"status": 200,
+							"dataId": "24518322-05b2-40e9-dd70-6d266483939c",
+							"modelFieldNo": "62e58741-7a2f-401a-9159-07e45e301ec1"
+						}
+					],
+					"attributes": [
+						{
+							"attribute": "setInitLoad",
+							"grouping": "Model",
+							"value": "online",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": [
+								"==OBJECT STRING==",
+								"let data = modeloModelArray.getData();",
+								"modeloNUIContainer.setData(data[0]);"
+							],
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"ver": "22.1.20.1443",
+	"application": "covid_manager_inbox",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": true,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": true,
+	"apis": [
+		{
+			"id": "8F42FB31-7075-EC11-94F6-A085FCBC9F84",
+			"name": "API covid_certificate",
+			"ver": "22.1.14.1928"
+		}
+	],
+	"package": "C32AAEE6-1079-EC11-94F6-A085FCBC9F84"
+}

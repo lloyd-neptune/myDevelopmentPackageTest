@@ -1,0 +1,74 @@
+{
+	"id": "9a0e5c7b-047d-ec11-94f6-a085fcbc9f84",
+	"createdAt": "2022-01-24T10:57:55.470Z",
+	"createdBy": "emmanuella",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "9388AEBB-5CAD-4E8A-8E47-F82FC66E965E",
+			"method": "GET",
+			"path": "/certificates",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": []
+				}
+			],
+			"serverScript": "180F9BF6-FE7C-EC11-94F6-A085FCBC9F84"
+		},
+		{
+			"id": "E33A9EC2-1024-4465-B800-C251C3094D8A",
+			"method": "POST",
+			"path": "/certificates",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": []
+				}
+			],
+			"content": [
+				{
+					"name": "",
+					"objectType": "object"
+				}
+			],
+			"serverScript": "180F9BF6-FE7C-EC11-94F6-A085FCBC9F84"
+		}
+	],
+	"definitions": [],
+	"documentation": [],
+	"name": "managelist",
+	"endpoint": "/api/serverscript/managelist",
+	"ver": "22.1.25.1044",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "c32aaee6-1079-ec11-94f6-a085fcbc9f84",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

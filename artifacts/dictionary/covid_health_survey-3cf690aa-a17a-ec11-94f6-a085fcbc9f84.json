@@ -1,0 +1,75 @@
+{
+	"id": "3cf690aa-a17a-ec11-94f6-a085fcbc9f84",
+	"createdAt": "2022-01-21T10:05:32.610Z",
+	"createdBy": "emmanuella",
+	"fields": [
+		{
+			"id": "f4e22218-29e1-4d63-fd9b-dde768d4f6e4",
+			"fieldName": "userId",
+			"fieldType": "text",
+			"description": "SAP User ID"
+		},
+		{
+			"id": "fa24b9a7-10b2-4d06-f824-2b77507d4894",
+			"fieldName": "fever",
+			"fieldType": "boolean",
+			"isNullable": true
+		},
+		{
+			"id": "5960920e-138b-48a1-fa82-fac95cbb15b7",
+			"fieldName": "fatigue",
+			"fieldType": "boolean",
+			"isNullable": true
+		},
+		{
+			"id": "ead81072-fd43-4873-96fe-e72ee53f5782",
+			"fieldName": "cough",
+			"fieldType": "boolean",
+			"isNullable": true
+		},
+		{
+			"id": "5681b002-125a-4071-b586-d4089eda7b9a",
+			"fieldName": "breathing_difficulty",
+			"fieldType": "boolean",
+			"isNullable": true,
+			"description": "breathing difficulty"
+		},
+		{
+			"id": "57a6dfa5-f374-4716-b391-35ffc35aaa47",
+			"fieldName": "sore_throat",
+			"fieldType": "boolean",
+			"isNullable": true,
+			"description": "Sore throat"
+		},
+		{
+			"id": "c6863ac6-2726-4be1-e984-1ec1bf12cf99",
+			"fieldName": "chest_pain",
+			"fieldType": "boolean",
+			"isNullable": true,
+			"description": "Chest pain"
+		},
+		{
+			"id": "f90e361f-f6ea-41c4-83d5-98910a0ca571",
+			"fieldName": "congestion",
+			"fieldType": "boolean",
+			"isNullable": true,
+			"description": "Nasal congestion or running nose"
+		},
+		{
+			"id": "54e954b2-03c9-43f0-d876-9365211f1682",
+			"fieldName": "taste",
+			"fieldType": "boolean",
+			"isNullable": true,
+			"description": "loss of taste"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "covid_health_survey",
+	"description": null,
+	"ver": "22.1.21.1114",
+	"enableAudit": false,
+	"package": "c32aaee6-1079-ec11-94f6-a085fcbc9f84",
+	"rolesRead": [],
+	"rolesWrite": []
+}

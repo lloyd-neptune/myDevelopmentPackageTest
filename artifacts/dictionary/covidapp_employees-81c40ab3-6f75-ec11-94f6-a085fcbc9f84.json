@@ -1,0 +1,76 @@
+{
+	"id": "81c40ab3-6f75-ec11-94f6-a085fcbc9f84",
+	"createdAt": "2022-01-14T19:25:16.216Z",
+	"createdBy": "emmanuella",
+	"fields": [
+		{
+			"id": "923d5a22-6553-42ef-fd0f-efa5bcbbaa02",
+			"fieldName": "name",
+			"fieldType": "text"
+		},
+		{
+			"id": "3190dca7-373e-4736-e651-2a6f02a3da32",
+			"fieldName": "userId",
+			"fieldType": "uuid",
+			"isNullable": true
+		},
+		{
+			"id": "bed93e96-0520-42f0-9a3c-302a480a920e",
+			"fieldName": "email",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "79ba5bd2-1c18-44bd-d04c-d97a90b1a99a",
+			"fieldName": "employeeId",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "7cbe6740-5c56-4267-dda0-172770950093",
+			"fieldName": "status",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "71e98629-7411-4f11-8a41-cdd40543d7ef",
+			"fieldName": "statusDate",
+			"fieldType": "timestamp",
+			"isNullable": true
+		},
+		{
+			"id": "c1ce36b0-2d5e-4689-e472-845e50e783c2",
+			"fieldName": "reminderEmail",
+			"fieldType": "boolean",
+			"isNullable": true
+		},
+		{
+			"id": "d28612a0-be5d-4ea7-fce5-92ecfd5bfcf7",
+			"fieldName": "privacyAgreement",
+			"fieldType": "boolean",
+			"isNullable": true
+		},
+		{
+			"id": "f482c789-c2b2-4761-d329-8d4ac4b7b0b1",
+			"fieldName": "picture",
+			"fieldType": "text",
+			"description": "Profile Picture",
+			"isNullable": true
+		},
+		{
+			"id": "cbea5212-0be0-4993-db52-b6732bf2034f",
+			"fieldName": "healthStatus",
+			"fieldType": "text",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "covidapp_employees",
+	"description": null,
+	"ver": "22.2.14.1116",
+	"enableAudit": false,
+	"package": "c32aaee6-1079-ec11-94f6-a085fcbc9f84",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,47 @@
+{
+	"id": "8c934ee1-2b79-ec11-94f6-a085fcbc9f84",
+	"createdAt": "2022-01-19T13:29:52.213Z",
+	"createdBy": "emmanuella",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "B4F9F300-7075-EC11-94F6-A085FCBC9F84",
+			"name": "covid_certificate",
+			"contextname": "covid_certificate"
+		}
+	],
+	"apis": [],
+	"name": "Cert_approval",
+	"ver": "22.1.21.826",
+	"description": null,
+	"content": [
+		"==OBJECT STRING==",
+		"try {",
+		"    const key = wfData.objectKey;",
+		"    const action = wfData.fromAction;",
+		"",
+		"    let recordStatus;",
+		"",
+		"    if (action === \"Approve\") {",
+		"        recordStatus = \"Approved\";",
+		"    } else {",
+		"        recordStatus = \"Rejected\";",
+		"    }",
+		"",
+		"",
+		"    await entities.covid_certificate.update({ \"wf_ref\": key }, { status: recordStatus });",
+		"} catch (e) {",
+		"    log.info(e);",
+		"}",
+		"",
+		"",
+		"complete();"
+	],
+	"useAsGlobalScript": false,
+	"isTypescript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"jsscriptGroup": "a04e57d7-2b79-ec11-94f6-a085fcbc9f84",
+	"package": "c32aaee6-1079-ec11-94f6-a085fcbc9f84"
+}

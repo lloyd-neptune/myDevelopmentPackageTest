@@ -1,0 +1,339 @@
+{
+	"id": "0b0afe83-b27a-ec11-94f6-a085fcbc9f84",
+	"createdAt": "2022-01-21T12:06:14.566Z",
+	"createdBy": "emmanuella",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "316FBB17-3089-4335-BAEB-FF219E7D2E0F",
+			"path": "/covid_config",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "covid_config"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "A8A89118-B776-43D8-D6A9-F1D0C46D6379",
+			"path": "/covid_config",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "covid_config"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "covid_config"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "F0108EA9-796F-4E92-B952-813D45B11B37",
+			"path": "/covid_config",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "covid_config"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "covid_config"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "DA981E90-3DE2-4E86-9B23-A70C126CAABA",
+			"path": "/covid_config",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "covid_config"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "dee8c5d5-4e01-4e2b-d656-e6d364d3a615",
+			"name": "covid_config",
+			"properties": [
+				{
+					"id": "2823f694-5c89-45ba-b154-14ee8a7e8e3d",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "2c54f006-7089-4634-b733-86cd05d913a5",
+					"parent": "",
+					"name": "rule",
+					"objectType": "string"
+				},
+				{
+					"id": "1603cf88-93b7-41dd-865b-132b2c2af749",
+					"parent": "",
+					"name": "vaccineDuration",
+					"objectType": "string"
+				},
+				{
+					"id": "32c21c9d-2247-4610-cfba-0bd8a42a41b5",
+					"parent": "",
+					"name": "recoverDuration",
+					"objectType": "string"
+				},
+				{
+					"id": "229d7b83-24f4-4387-a15a-945c16d65bcb",
+					"parent": "",
+					"name": "testDuration",
+					"objectType": "string"
+				},
+				{
+					"id": "5cfccfb5-c699-432b-946c-fb05434b4c85",
+					"parent": "",
+					"name": "policyPreview",
+					"objectType": "string"
+				},
+				{
+					"id": "ce9609bf-8099-470f-f990-396d38acd3e8",
+					"parent": "",
+					"name": "securityInfo",
+					"objectType": "object"
+				},
+				{
+					"id": "6c26980b-fff1-4268-e45c-022bd4673043",
+					"parent": "",
+					"name": "statusGoodImg",
+					"objectType": "string"
+				},
+				{
+					"id": "6f937cf7-e248-4e66-e426-09b9adf9e0e4",
+					"parent": "",
+					"name": "statusBadImg",
+					"objectType": "string"
+				},
+				{
+					"id": "177171d6-e6dc-4193-de5b-9fb12eca5a72",
+					"parent": "",
+					"name": "compliantMsgGood",
+					"objectType": "string"
+				},
+				{
+					"id": "714b9195-ee7a-49da-870e-c87e78e1a069",
+					"parent": "",
+					"name": "compliantMsgBad",
+					"objectType": "string"
+				},
+				{
+					"id": "b1c402a3-6a2d-4743-ac36-b35d4cfa8e91",
+					"parent": "",
+					"name": "policyPreviewImg",
+					"objectType": "string"
+				},
+				{
+					"id": "e4a876f9-5078-4363-ecbe-92d23987be93",
+					"parent": "",
+					"name": "policyLink",
+					"objectType": "string"
+				},
+				{
+					"id": "154d380c-07b1-4e66-f839-b2be9f323a2d",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "5bea3581-628a-487f-f748-69a16385f258",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created By",
+					"objectType": "string"
+				},
+				{
+					"id": "c97814cd-a198-4ebc-ecb7-7a26aa1a81f7",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "83697dc9-ffec-4181-d005-4f7c9a794b5b",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated By",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "5b9caaa8-c6bb-4ee5-d24f-d972f050e91c",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "46790ed8-57cf-4f38-aa23-d6f117d9d22f",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "539313b6-b741-49ed-d1dd-ba02048d7f35",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "API covid_config",
+	"endpoint": "/api/entity",
+	"ver": "22.1.21.126",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "c32aaee6-1079-ec11-94f6-a085fcbc9f84",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

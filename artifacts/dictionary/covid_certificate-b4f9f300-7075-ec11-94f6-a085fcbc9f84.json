@@ -1,0 +1,56 @@
+{
+	"id": "b4f9f300-7075-ec11-94f6-a085fcbc9f84",
+	"createdAt": "2022-01-14T19:27:26.966Z",
+	"createdBy": "emmanuella",
+	"fields": [
+		{
+			"id": "7be23c49-e113-4025-93b8-ecbff777bd6e",
+			"fieldName": "userId",
+			"fieldType": "text"
+		},
+		{
+			"id": "869eec3e-49fe-4ae9-8766-5950e38074a9",
+			"fieldName": "type",
+			"fieldType": "text"
+		},
+		{
+			"id": "56130361-2793-4502-e239-202f7be842ae",
+			"fieldName": "dateTime",
+			"fieldType": "text",
+			"isNullable": false
+		},
+		{
+			"id": "d1587780-a7e4-4cc6-991f-5008e31cbd3f",
+			"fieldName": "document",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "b5f4723a-c063-4ff1-c6d7-2be82b4cae86",
+			"fieldName": "status",
+			"fieldType": "text",
+			"default": "Pending Approval"
+		},
+		{
+			"id": "7d416cbe-3b52-404a-d392-b57501223163",
+			"fieldName": "comment",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "8390ecd3-a4cc-49d6-c2ac-d665427c677b",
+			"fieldName": "wf_ref",
+			"fieldType": "text",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "covid_certificate",
+	"description": null,
+	"ver": "22.1.27.1726",
+	"enableAudit": false,
+	"package": "c32aaee6-1079-ec11-94f6-a085fcbc9f84",
+	"rolesRead": [],
+	"rolesWrite": []
+}

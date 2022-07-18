@@ -1,0 +1,242 @@
+{
+	"id": "28c2ee75-b07a-ec11-94f6-a085fcbc9f84",
+	"createdAt": "2022-01-21T11:51:26.323Z",
+	"createdBy": "emmanuella",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"tab0Text": "General",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Refresh",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableDelete": true,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "1F251F42-B17A-EC11-94F6-A085FCBC9F84",
+					"keyField": []
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "1F251F42-B17A-EC11-94F6-A085FCBC9F84",
+					"keyField": []
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": false,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": true,
+				"inset": false
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "compliantMsgBad",
+				"label": "compliantMsgBad",
+				"type": "text"
+			},
+			{
+				"name": "compliantMsgGood",
+				"label": "compliantMsgGood",
+				"type": "text"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			},
+			{
+				"name": "policyLink",
+				"label": "policyLink",
+				"type": "text"
+			},
+			{
+				"name": "policyPreview",
+				"label": "policyPreview",
+				"type": "text"
+			},
+			{
+				"name": "policyPreviewImg",
+				"label": "policyPreviewImg",
+				"type": "text"
+			},
+			{
+				"name": "recoverDuration",
+				"label": "recoverDuration",
+				"type": "text"
+			},
+			{
+				"name": "rule",
+				"label": "rule",
+				"type": "text"
+			},
+			{
+				"name": "securityInfo",
+				"label": "securityInfo",
+				"type": "json"
+			},
+			{
+				"name": "statusBadImg",
+				"label": "statusBadImg",
+				"type": "text"
+			},
+			{
+				"name": "statusGoodImg",
+				"label": "statusGoodImg",
+				"type": "text"
+			},
+			{
+				"name": "testDuration",
+				"label": "testDuration",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "vaccineDuration",
+				"label": "vaccineDuration",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "rule",
+				"text": "Rule",
+				"fieldPos": 1
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "recoverDuration",
+				"text": "Recover Duration (in Months)",
+				"fieldPos": 2,
+				"type": "ObjectNumber"
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "vaccineDuration",
+				"text": "Vaccine Duration (in months)",
+				"fieldPos": 3,
+				"type": "ObjectNumber"
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "testDuration",
+				"text": "Test Duration (Hours)",
+				"fieldPos": 4,
+				"type": "ObjectNumber"
+			}
+		],
+		"defaultVariant": {
+			"id": "c6238188-37fd-4eea-cf61-2a6bcdfdea8e",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "CovidRule",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "0bd78143-b07a-ec11-94f6-a085fcbc9f84",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.2.7.1033",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "c32aaee6-1079-ec11-94f6-a085fcbc9f84",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

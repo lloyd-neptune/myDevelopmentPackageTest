@@ -1,0 +1,18 @@
+{
+	"id": "0bd78143-b07a-ec11-94f6-a085fcbc9f84",
+	"createdAt": "2022-01-21T11:50:01.696Z",
+	"createdBy": "emmanuella",
+	"settings": {
+		"tableid": "D8C0C845-AE7A-EC11-94F6-A085FCBC9F84",
+		"hasDocumentation": false,
+		"previewable": true
+	},
+	"documentation": {},
+	"name": "covidAppConfig",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "22.3.7.1547",
+	"disabled": false,
+	"package": "c32aaee6-1079-ec11-94f6-a085fcbc9f84"
+}

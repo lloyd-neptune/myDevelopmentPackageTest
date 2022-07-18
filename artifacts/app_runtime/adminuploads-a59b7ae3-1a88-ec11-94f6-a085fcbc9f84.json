@@ -1,0 +1,407 @@
+{
+	"id": "a59b7ae3-1a88-ec11-94f6-a085fcbc9f84",
+	"createdAt": "2022-02-07T13:36:44.153Z",
+	"createdBy": "emmanuella",
+	"objects": [
+		{
+			"fieldNo": "1",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "2",
+					"fieldName": "oApp",
+					"fieldParent": "1",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "4",
+							"fieldName": "oPage",
+							"fieldParent": "2",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Uploads",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "347defb8-b912-468b-f355-7640a60bd7d1",
+									"fieldName": "oNUIContainerProfileData",
+									"fieldParent": "4",
+									"fieldType": "nep.bootstrap.Container",
+									"script": "",
+									"bindingValue": "Generic Object",
+									"bindingType": "u",
+									"bindingSource": "P9",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "margin",
+											"grouping": "Properties",
+											"value": "MarginTop4",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "355452ca-35d6-452a-ea8a-b804a3349494",
+											"fieldName": "uploadLogo",
+											"fieldParent": "347defb8-b912-468b-f355-7640a60bd7d1",
+											"fieldType": "nep.bootstrap.Input",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "File",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginBottom4",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "label",
+													"grouping": "Properties",
+													"value": "Company Logo",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "7cee87f5-68e7-438f-def6-b0e4c265d2a8",
+											"fieldName": "uploadPolicyPic",
+											"fieldParent": "347defb8-b912-468b-f355-7640a60bd7d1",
+											"fieldType": "nep.bootstrap.Input",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "File",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginBottom4",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "label",
+													"grouping": "Properties",
+													"value": "Policy Image",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "5",
+									"fieldName": "oFooter",
+									"fieldParent": "4",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6",
+											"fieldName": "Left",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "7",
+											"fieldName": "Middle",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "0245f1c9-368c-4d39-95a3-097a33fa85ce",
+													"fieldName": "btnUpdateUserData",
+													"fieldParent": "7",
+													"fieldType": "nep.bootstrap.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "btnNepCardStyleWhite",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": [
+																"==OBJECT STRING==",
+																"",
+																"const file1 = document.querySelectorAll('[id$=\"uploadLogo___input\"]')[0].files[0];",
+																"const file2 = document.querySelectorAll('[id$=\"uploadPolicyPic___input\"]')[0].files[0];",
+																"",
+																"var uploadLogo1 = null;",
+																"",
+																"var uploadLogo2 = null;",
+																" var data = {};",
+																"",
+																"(async () => {",
+																"",
+																"    if(file1){",
+																"        uploadLogo1 = await toBase64(file1);",
+																"        data[\"logo\"] = uploadLogo1;",
+																"    }",
+																"   ",
+																"    if(file2){",
+																"        uploadLogo2 = await toBase64(file2);",
+																"        data[\"policyPic\"] = uploadLogo2;",
+																"    }",
+																"   ",
+																"    var options = {",
+																"        parameters: {",
+																"            \"where\": JSON.stringify({ \"id\": config_data.id }) // Optional ",
+																"        },",
+																"        data: data",
+																"    };",
+																"    apioRestAPI_config(options);",
+																"    sap.m.MessageToast.show(\"Successfully Updated!\");",
+																"",
+																"})();",
+																"",
+																""
+															],
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Upload",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "border",
+															"grouping": "Properties",
+															"value": "Border0",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "300px",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "contextColor",
+															"grouping": "Properties",
+															"value": "Warning",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "8",
+											"fieldName": "Right",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "ac65e6b3-452c-4059-acc0-35fb18cbe8a8",
+					"fieldName": "oRestAPI_config_GET",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"restSource": "0B0AFE83-B27A-EC11-94F6-A085FCBC9F84",
+					"restOperation": "316FBB17-3089-4335-BAEB-FF219E7D2E0F",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "b5f960db-1706-4444-faf6-ed94733ebf28",
+					"fieldName": "oJavascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": [
+						"==OBJECT STRING==",
+						"",
+						"var config_data;",
+						"apioRestAPI_config_GET().then((result) => {",
+						"    config_data = result[0];",
+						"    //console.log(config_data);",
+						"})",
+						"const toBase64 = file => new Promise((resolve, reject) => {",
+						"  const reader = new FileReader();",
+						"  reader.readAsDataURL(file);",
+						"  reader.onload = () => resolve(reader.result);",
+						"  reader.onerror = error => reject(error);",
+						"});"
+					],
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "ac837ee5-5732-455f-8646-a1706f13897a",
+					"fieldName": "oRestAPI_config",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"restSource": "0B0AFE83-B27A-EC11-94F6-A085FCBC9F84",
+					"restOperation": "F0108EA9-796F-4E92-B952-813D45B11B37",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"ver": "22.2.8.1822",
+	"application": "adminuploads",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": true,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": true,
+	"apis": [
+		{
+			"id": "0B0AFE83-B27A-EC11-94F6-A085FCBC9F84",
+			"name": "API covid_config",
+			"ver": "22.1.21.126"
+		}
+	],
+	"package": "C32AAEE6-1079-EC11-94F6-A085FCBC9F84"
+}

@@ -1,0 +1,100 @@
+{
+	"id": "d8c0c845-ae7a-ec11-94f6-a085fcbc9f84",
+	"createdAt": "2022-01-21T11:35:47.106Z",
+	"createdBy": "emmanuella",
+	"fields": [
+		{
+			"id": "cf541eb8-be68-4ab6-b65a-846a0e336e1a",
+			"fieldName": "rule",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "020312af-ea46-4764-b07e-20464dba4a5e",
+			"fieldName": "vaccineDuration",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "599ca442-fc47-4a68-eb9e-eaf3ddef8174",
+			"fieldName": "recoverDuration",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "e06c952f-81fa-4249-b54d-8444c3c41d93",
+			"fieldName": "testDuration",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "377b4477-9475-4920-a386-b8092b0c6435",
+			"fieldName": "policyPreview",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "bfcb7460-1931-4628-b67b-9cb6bed46813",
+			"fieldName": "securityInfo",
+			"fieldType": "json",
+			"isNullable": true
+		},
+		{
+			"id": "c44994e9-f4ea-43da-d147-d8f3e18fb3ad",
+			"fieldName": "statusGoodImg",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "3cd7c55b-7337-4e0e-a477-7f36ab7621fd",
+			"fieldName": "statusBadImg",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "5ade850d-1ab7-4830-f44f-49b011ae8e5b",
+			"fieldName": "compliantMsgGood",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "9f81c70a-be4f-4188-8d13-fdae1172951c",
+			"fieldName": "compliantMsgBad",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "a67f4c51-5a1f-4087-ee8c-4e90fb43ba7e",
+			"fieldName": "policyPreviewImg",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "6d1e290d-81a8-4dc9-ef6e-8d4c01a18e06",
+			"fieldName": "policyLink",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "0a316b39-6b05-4c97-e8f8-b683670e46f4",
+			"fieldName": "logo",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "608e8963-1bad-40cb-ba42-0895560ea373",
+			"fieldName": "policyPic",
+			"fieldType": "text",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "covid_config",
+	"description": null,
+	"ver": "22.2.8.1021",
+	"enableAudit": false,
+	"package": "c32aaee6-1079-ec11-94f6-a085fcbc9f84",
+	"rolesRead": [],
+	"rolesWrite": []
+}
